@@ -26,11 +26,13 @@ con.commit()
 
 # Bu programın amacı , İstediğiniz herhangi bir postgreSQL server 'ında istenilen veritabanında sorgu ve tabloyu istediğiniz path altında export unu csv olarak çıkarmak.
 # Programda Örnek giriş bilgileri aşağıdadır.
-# Veritabanı Adını Giriniz : demo
-# Kullanıcı Adını Giriniz : sqltr_usr
-# Şifrenizi Giriniz : Abc12345
+# Veritabanı Adını Giriniz : db_name
+# Kullanıcı Adını Giriniz : user
+# Şifrenizi Giriniz : Pass
 # Host Bilginizi Giriniz : IP /hostname
 # Port : 5432
 # Export edilecek query ya da tabloyu giriniz : test
 # Path bilgisini giriniz : /tmp/demo99.csv
 # Delimiter : ,
+
+# NOT : Export edilecek query olacak ise () içerisinde query bilgisini girmelisiniz.Örnek :  (SELECT name,surname FROM test2)
