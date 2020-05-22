@@ -13,7 +13,6 @@ con = psycopg2.connect(database=db_name, user=user_name, password=passwd, host=h
 print("Connecting to Database")
 con.autocommit = True
 cursor = con.cursor()
-#    database="demo", user='sqltr_usr', password='Abc12345', host='', port='5432'
 
 s1 = "COPY "
 s2 = " TO "
