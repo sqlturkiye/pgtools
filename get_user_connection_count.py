@@ -1,5 +1,5 @@
 # Bu programın amacı ,
-# İstediğiniz herhangi bir postgreSQL server 'ında db ve kullanıcı bazlı connection sayılarını vermektedir.
+# İstediğiniz herhangi bir postgreSQL server 'ında kullanıcı bazlı connection sayılarını vermektedir.
 # Programda Örnek giriş bilgileri aşağıdadır.
 # Veritabanı Adını Giriniz : db_name
 # Kullanıcı Adını Giriniz : user
@@ -29,5 +29,3 @@ print(df)
 
 con.commit()
 con.close()
-
-
